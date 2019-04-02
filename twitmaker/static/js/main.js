@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let ol = document.querySelector('body > main > ol');
       let p = document.createElement('p');
       let time = document.createElement('time');
-      let messageInput = document.getElementById('id_message');
+      let messageInput = document.querySelector('body > main > form');
       li.classList.add('tweet');
       p.innerHTML = tweet.message;
       time.innerHTML = tweet.created_at;
